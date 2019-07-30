@@ -1,0 +1,23 @@
+{
+  "name": "reminiscence",
+  "version": "0.0.4",
+  "description": "Simple data flow framework",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --source-maps -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "functional",
+    "side-effects",
+    "direct-flow"
+  ],
+  "author": "Alexei Rysev",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
