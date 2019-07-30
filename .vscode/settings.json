@@ -8,5 +8,8 @@
   "editor.insertSpaces": true,
   "[javascript]": {
     "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
   }
 }
