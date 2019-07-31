@@ -1,0 +1,32 @@
+{
+  "name": "reminiscence-demo",
+  "version": "0.0.1",
+  "description": "Reminiscence use examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node fuse.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reminiscence",
+    "functional",
+    "simple-flow",
+    "pure"
+  ],
+  "author": "Alexei Rysev",
+  "license": "ISC",
+  "devDependencies": {
+    "fuse-box": "^3.7.1",
+    "typescript": "^3.5.3",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.6.0"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.26.18",
+    "bulma": "^0.7.5",
+    "classnames": "^2.2.6",
+    "ramda": "^0.26.1",
+    "reminiscence": "^0.0.4",
+    "typestyle": "^2.0.4"
+  }
+}

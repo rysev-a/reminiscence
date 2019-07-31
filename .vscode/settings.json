@@ -1,12 +1,14 @@
 {
   "files.exclude": {
-    "**/node_modules": true,
-    "**/dist": true
+    "**/node_modules": true
   },
   "editor.rulers": [80],
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
     "editor.tabSize": 2
   },
   "[html]": {
