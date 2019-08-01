@@ -6,12 +6,12 @@ import { navbarBrandClassName, navbarMenuClassName } from './TopMenuStyle';
 import { navigateMessage } from 'main/transducers/navigation';
 
 const topMenuLinks = [
-  { title: 'Documentation', url: '/documentation' },
-  { title: 'Examples', url: '/examples' },
-  { title: 'Tutorials', url: '/tutorials' },
-  { title: 'Advanced', url: '/advanced' },
-  { title: 'Api', url: '/about' },
-  { title: 'About', url: '/about' },
+  { title: 'Documentation', url: '/reminiscence/documentation' },
+  { title: 'Examples', url: '/reminiscence/examples' },
+  { title: 'Tutorials', url: '/reminiscence/tutorials' },
+  { title: 'Advanced', url: '/reminiscence/advanced' },
+  { title: 'Api', url: '/reminiscence/about' },
+  { title: 'About', url: '/reminiscence/about' },
 ];
 
 const TopMenuItemHtml = ({ title, url }) =>

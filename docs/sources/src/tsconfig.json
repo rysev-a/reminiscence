@@ -5,9 +5,9 @@
     "target": "es5",
     "importHelpers": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "strict": true,
-    "strictNullChecks": true
+    "experimentalDecorators": true
+    // "strict": true,
+    // "strictNullChecks": true
   },
   "typeRoots": ["./typings"]
 }

@@ -296,12 +296,12 @@ var html_1 = require("~/utils/effects/html");
 var TopMenuStyle_1 = require("./TopMenuStyle");
 var navigation_1 = require("~/main/transducers/navigation");
 var topMenuLinks = [
-    { title: 'Documentation', url: '/documentation' },
-    { title: 'Examples', url: '/examples' },
-    { title: 'Tutorials', url: '/tutorials' },
-    { title: 'Advanced', url: '/advanced' },
-    { title: 'Api', url: '/about' },
-    { title: 'About', url: '/about' },
+    { title: 'Documentation', url: '/reminiscence/documentation' },
+    { title: 'Examples', url: '/reminiscence/examples' },
+    { title: 'Tutorials', url: '/reminiscence/tutorials' },
+    { title: 'Advanced', url: '/reminiscence/advanced' },
+    { title: 'Api', url: '/reminiscence/about' },
+    { title: 'About', url: '/reminiscence/about' },
 ];
 var TopMenuItemHtml = function (_a) {
     var title = _a.title, url = _a.url;
@@ -520,7 +520,7 @@ var examplesPage = bootstrap_1.generatePage({
     pageId: exports.examplesPageId,
     computer: examples_1.default,
     routes: {
-        '/examples': 'load',
+        '/reminiscence/examples': 'load',
         escape: 'destroy',
     },
 });
@@ -16196,4 +16196,4 @@ if (!$isBrowser) {
 }
 
 return __root__["FuseBox"] = FuseBox; } )(this))
-//# sourceMappingURL=app.js.map?tm=1564646310411
+//# sourceMappingURL=app.js.map?tm=1564646812074

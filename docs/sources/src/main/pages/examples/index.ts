@@ -21,7 +21,7 @@ const examplesPage = generatePage({
   pageId: examplesPageId,
   computer: examples,
   routes: {
-    '/examples': 'load',
+    '/reminiscence/examples': 'load',
     escape: 'destroy',
   },
 });
