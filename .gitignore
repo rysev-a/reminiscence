@@ -1,4 +1,5 @@
 /node_modules
 /lib
-/docs/node_modules
-/docs/.fusebox
+/docs/sources/node_modules
+/docs/sources/dist
+**/.fusebox

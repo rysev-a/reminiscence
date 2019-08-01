@@ -1,10 +1,11 @@
 {
-  "name": "reminiscence-demo",
+  "name": "reminiscence-documentation",
   "version": "0.0.1",
-  "description": "Reminiscence use examples",
+  "description": "Reminiscence pattern documentation",
   "main": "index.js",
   "scripts": {
-    "start": "node fuse.js",
+    "start": "NODE_ENV=development node fuse.js",
+    "build": "NODE_ENV=production node fuse.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
