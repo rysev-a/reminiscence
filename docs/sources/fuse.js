@@ -20,6 +20,7 @@ const fuse = FuseBox.init({
   output: isProduction ? '../$name.js' : '../dist/$name.js',
   plugins: [
     WebIndexPlugin({
+      path: isProduction ? '/reminiscence' : '/',
       template: 'src/assets/index.html',
     }),
     CSSPlugin(),

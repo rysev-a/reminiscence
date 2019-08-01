@@ -10,7 +10,7 @@ var core_1 = require("reminiscence/lib/core");
 var plugins_1 = require("reminiscence/lib/plugins");
 var main_1 = require("~/main");
 core_1.run({ dom: plugins_1.dom, history: plugins_1.history, http: plugins_1.http, store: plugins_1.store, time: plugins_1.time }, main_1.default);
-//# sourceMappingURL=app.js.map?tm=1564645757025
+//# sourceMappingURL=app.js.map?tm=1564646310411
 });
 ___scope___.file("main/index.js", function(exports, require, module, __filename, __dirname){
 
@@ -16196,4 +16196,4 @@ if (!$isBrowser) {
 }
 
 return __root__["FuseBox"] = FuseBox; } )(this))
-//# sourceMappingURL=app.js.map?tm=1564645757025
+//# sourceMappingURL=app.js.map?tm=1564646310411
